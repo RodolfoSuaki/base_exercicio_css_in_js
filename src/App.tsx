@@ -1,8 +1,8 @@
 import Header from './components/Cabecalho'
 import Hero from './components/Hero'
 import ListaVagas from './containers/ListaVagas'
-
-import EstiloGlobal from './global'
+import { Container } from './global'
+  import EstiloGlobal from './global'
 
 function App() {
   return (
@@ -10,9 +10,9 @@ function App() {
       <EstiloGlobal />
       <Header />
       <Hero />
-      <div>
+      <Container>
         <ListaVagas />
-      </div>
+      </Container>
     </>
   )
 }
