@@ -19,14 +19,14 @@ body {
   padding-bottom: 120px;
 }
 
-.container {
+div {
   max-width: 1024px;
   width: 100%;
   margin: 0 auto;
 }
 
 @media (max-width: 1024px) {
-  .container {
+  div {
     max-width: 80%;
   }
 }

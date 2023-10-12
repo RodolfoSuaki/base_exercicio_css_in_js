@@ -10,7 +10,7 @@ function App() {
       <EstiloGlobal />
       <Header />
       <Hero />
-      <div className="container">
+      <div>
         <ListaVagas />
       </div>
     </>
